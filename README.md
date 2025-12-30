@@ -1,39 +1,39 @@
-Linear Regression From Scratch (Sleep vs Exam Score)
+# Linear Regression From Scratch (Sleep vs Exam Score)
 
-This project implements linear regression from first principles to analyze the relationship between students’ sleep duration and exam performance. The workflow includes exploratory data analysis, correlation visualization, and model training using batch gradient descent without relying on machine learning libraries.
+## This project implements linear regression from first principles to analyze the relationship between students’ sleep duration and exam performance. The workflow includes exploratory data analysis, correlation visualization, and model training using batch gradient descent without relying on machine learning libraries.
 
-Features
+### Features
 
-Loads and processes real-world tabular data using Pandas
+* Loads and processes real-world tabular data using Pandas
 
-Computes and visualizes a correlation matrix with Seaborn
+* Computes and visualizes a correlation matrix with Seaborn
 
-Implements gradient descent from scratch to minimize Mean Squared Error
+* Implements gradient descent from scratch to minimize Mean Squared Error
 
-Trains the model over 10,000 epochs to learn optimal parameters
+* Trains the model over 10,000 epochs to learn optimal parameters
 
-Outputs the final regression equation
+* Outputs the final regression equation
 
-Visualizes both the dataset and the learned regression line
+* Visualizes both the dataset and the learned regression line
 
-Technologies Used
+### Technologies Used
 
-Python
+* Python
 
-Pandas
+* Pandas
 
-Matplotlib
+* Matplotlib
 
-Seaborn
+* Seaborn
 
-Output
+### Output
 
-Correlation heatmap of numerical features
+* Correlation heatmap of numerical features
 
-Scatter plot of sleep hours vs exam score
+* Scatter plot of sleep hours vs exam score
 
-Best-fit regression line learned via gradient descent
+* Best-fit regression line learned via gradient descent
 
-Purpose
+## Purpose
 
-This project demonstrates a foundational understanding of machine learning concepts, including optimization, loss functions, and data visualization, by building a regression model without high-level ML frameworks.
+### This project demonstrates a foundational understanding of machine learning concepts, including optimization, loss functions, and data visualization, by building a regression model without high-level ML frameworks.
